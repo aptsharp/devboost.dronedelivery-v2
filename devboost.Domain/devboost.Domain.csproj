@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Result\" />
+    <Compile Remove="Commands\Result\**" />
+    <EmbeddedResource Remove="Commands\Result\**" />
+    <None Remove="Commands\Result\**" />
   </ItemGroup>
 
   <ItemGroup>
